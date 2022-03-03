@@ -1,0 +1,10 @@
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import 'boxicons';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "boxicons/css/boxicons.min.css";
+import "bootstrap/dist/js/bootstrap.js";
+import 'jquery/dist/jquery.min.js';
+import "./assets/css/app.css";
+createApp(App).use(router).mount("#app");
